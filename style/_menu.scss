@@ -1,0 +1,15 @@
+.menu-link{
+  @extend .position-relative, .hover\:text-accent, .b-0, .bg-transparent, .font-md, .text-white, .cursor-pointer;
+}
+.menu-link:hover::before{
+  left: 45%;
+  top: 90%;
+  content: '○';
+  transition: all 200ms;
+}
+.menu-link::before{
+  left:100%;
+  top:0;
+  position: absolute;
+  content: '';
+}

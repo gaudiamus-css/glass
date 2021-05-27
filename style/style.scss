@@ -1,0 +1,22 @@
+@use "../node_modules/gaudiamus-css/scss/components/operations" as ops;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap');
+html,body{
+  min-height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: medium;
+}
+body{
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+@import "variables";
+@import "../node_modules/gaudiamus-css/scss";
+
+@import "card";
+@import "button";
+@import "form";
+@import "menu";
+
+
+
+

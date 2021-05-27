@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glass</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="bg-primary">
+<fire-flies></fire-flies>
+<header class="p-3 bg-primary-50 b-b-2 b-white raise-1-accent">
+    <div class="container d-flex">
+        <div class="f-1">
+            <p class="text-white text-lg">LOGO</p>
+        </div>
+        <div class="place-y-center position-relative">
+            <button class="menu-link">link 1</button>
+            <button class="menu-link">link 2</button>
+            <button class="menu-link">link 3</button>
+        </div>
+    </div>
+
+</header>
+
+<div class="container h-100p m-y-5">
+    <div class="grid lg:grid-6-6">
+        <div class="card m-t-5 p-5" >
+            <h1 class=" text-white font-xxl font-light">"Glass" </h1>
+            <h1 class=" text-white font-xxl font-light">An Ice-Cold Gaudiamus Interpretation</h1>
+            <div >
+                <div class="card text-white p-3">
+                    <div class="grid">
+                        <h1 class="font-lg place-x-center">Login</h1>
+                    </div>
+
+                    <hr class="b-1 b-transparent raise-1-accent-light">
+                    <form class="m-y-5 grid">
+                        <label class="grid-4-8">
+                            <span>Name</span>
+                            <input type="text" />
+                        </label>
+                        <label class="grid-4-8 m-t-2">
+                            <span>Email</span>
+                            <input type="email" />
+                        </label>
+                        <div class="place-x-end">
+                            <button class="button-primary m-t-3">LOGIN</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card p-5 place-y-end place-x-center m-5">
+            <a href="github" class="text-white text-decoration-none hover:text-accent"> fork me on github </a>
+        </div>
+    </div>
+
+
+</div>
+<script type="module">
+    import './components/FireFlies.js'
+</script>
+</body>
+</html>

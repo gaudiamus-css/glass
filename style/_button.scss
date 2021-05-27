@@ -1,0 +1,12 @@
+@use "functionsMixins" as func;
+.button{
+  @extend .b-1, .b-white, .raise-1-accent, .cursor-pointer, .p-x-3, .p-y-1, .font-strong, .m-x-2;
+}
+
+@each $name, $color in $color-map{
+  $textColor: func.contrast($color);
+  $hoverColor: func.contrast($white);
+  .button-#{$name}{
+    @extend .button, .text-#{$textColor}, .bg-#{$name}, .hover\:bg-white, .hover\:text-#{$hoverColor};
+  }
+}
