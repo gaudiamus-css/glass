@@ -1,3 +1,52 @@
-input,select{
-  @extend .bg-accent, .b-1, .b-white, .p-x-2, .p-y-1, .text-primary, .font-strong, .focus\:raise-1-white;
+::-webkit-input-placeholder { /* Edge */
+  color: $accentColor;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $accentColor;
+}
+
+::placeholder {
+  color: $accentColor;
+}
+input,select, textarea{
+  @extend .bg-accent-25, .b-1, .b-white, .p-x-2, .p-y-1, .text-primary, .font-strong, .focus\:raise-1-white;
+}
+select option{
+  background: rgba($accentColor, .5);
+  color: $primaryColor;
+}
+input[type=checkbox] {
+  visibility: hidden;
+  position: relative;
+  overflow: hidden;
+  width: 22px;
+  height: 22px;
+  &::before{
+    visibility: visible;
+    position: absolute;
+    top:0;
+    content: "";
+    width: 20px;
+    height: 20px;
+    backdrop-filter: blur(5px);
+    @extend .b-white-50, .b-1, .bg-white-50;
+  }
+  &:hover::before{
+
+  }
+  &:checked::after{
+    visibility: visible;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    // f**ing brilliant: https://stackoverflow.com/a/42317014
+    -webkit-mask: url(../assets/done_outline_black_24dp.svg) no-repeat 50% 50%;
+    mask: url(../assets/done_outline_black_24dp.svg) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    @extend .font-default, .font-strong, .bg-primary;
+  }
+
 }
