@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Glass</title>
     <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+          rel="stylesheet">
 </head>
 <body class="bg-primary">
 <fire-flies></fire-flies>
@@ -12,18 +15,43 @@
         <div class="f-1">
             <p class="text-white text-lg">LOGO</p>
         </div>
-        <div class="place-y-center position-relative">
+        <div class="place-y-center position-relative md:d-block d-hidden " id="menu">
             <button class="menu-link">link 1</button>
             <button class="menu-link">link 2</button>
             <button class="menu-link">link 3</button>
         </div>
-    </div>
+        <div class="place-y-center position-relative md:d-hidden text-white font-xl">
+            <button class="icon-button-white" id="toggleMenu" data-menu="menu"><span class="material-icons-outlined">drag_indicator</span></button>
+        </div>
 
+    </div>
+    <script>
+        document.querySelector('#toggleMenu').addEventListener('click', ev => {
+            const elements = document.getElementById(ev.target.parentElement.dataset.menu).childNodes;
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenu.style.display = mobileMenu.style.display === 'none' ? 'block' : 'none';
+            mobileMenu.querySelector('section').innerText = '';
+            let counter = -300;
+            for(let i = 0; i < elements.length; i++){
+                if(elements[i].nodeType === 1){
+                    counter += 300;
+                    setTimeout(()=>{mobileMenu.querySelector('section').appendChild(elements[i].cloneNode(true))}, counter)
+
+                }
+            }
+
+        })
+    </script>
 </header>
+<div class="backdrop bg-black-75 position-absolute w-100p h-100p" style="display: none" id="mobile-menu">
+    <section class="position-absolute card grid w-50p" style="right:10px; z-index: 10;" ></section>
+</div>
+
 
 <div class="container h-100p m-y-5">
     <div class="grid lg:grid-6-6">
-        <div class="card m-t-5 p-5" >
+        <div class="card m-t-5 p-5 " >
             <h1 class=" text-white font-xxl font-light">"Glass" </h1>
             <h1 class=" text-white font-xxl font-light">An Ice-Cold Gaudiamus Interpretation</h1>
             <div >
@@ -32,7 +60,7 @@
                         <h1 class="font-lg place-x-center">Login</h1>
                     </div>
 
-                    <hr class="b-1 b-transparent raise-1-accent-light">
+                    <hr>
                     <form class="m-y-5 grid">
                         <label class="grid-4-8">
                             <span>Name</span>
@@ -53,9 +81,65 @@
             <a href="https://github.com/gaudiamus-css/glass" class="text-white text-decoration-none hover:text-accent"> fork me on github </a>
         </div>
     </div>
+    <div class="card" style="margin-top: 200px">
+        <div class="grid bg-primary-50 p-3">
+            <h2 class="place-x-center text-white font-lg">Buttons</h2>
+            <p class="place-x-center text-white font-sm">*Shown color selection is arbitrary and incomplete</p>
+        </div>
+        <div class="p-3">
+            <p class="text-white">Customizable according to color-palette and modifiers</p>
+            <button class="button-primary m-y-1">.button-primary</button>
+            <button class="button-accent m-y-1">.button-accent</button>
+            <button class="button-success m-y-1">.button-success</button>
+            <button class="button-warning m-y-1">.button-warning</button>
+            <button class="button-teal m-y-1">.button-teal</button>
+            <button class="button-teal-light m-y-1">.button-teal-light</button>
+            <p class="text-white">With .b-rounded</p>
+            <button class="button-primary m-y-1 b-rounded">.button-primary</button>
+            <button class="button-accent m-y-1 b-rounded">.button-accent</button>
+            <button class="button-success m-y-1 b-rounded">.button-success</button>
+            <button class="button-warning m-y-1 b-rounded">.button-warning</button>
+            <button class="button-teal m-y-1 b-rounded">.button-teal</button>
+            <button class="button-teal-light m-y-1 b-rounded">.button-teal-light</button>
+            <p class="text-white">Icon-buttons</p>
+            <button class="icon-button-primary">
+                <span class="material-icons-outlined">code</span>
+            </button>
+            <button class="icon-button-accent">
+                <span class="material-icons-outlined">favorite</span>
+            </button>
+            <button class="icon-button-success">
+                <span class="material-icons-outlined">done</span>
+            </button>
+            <button class="icon-button-teal">
+                <span class="material-icons-outlined">mail</span>
+            </button>
+        </div>
+    </div>
+    <div class="card" style="margin-top: 200px">
+        <div class="grid bg-teal-50 p-3">
+            <h2 class="place-x-center text-white font-lg">Polygons</h2>
+            <p class="place-x-center text-white font-sm">*Shown color selection is arbitrary and incomplete</p>
+        </div>
+        <div class="p-3">
+            <div class="md:d-flex" style="justify-content: space-between">
+                <div class="polygon w-200px h-200px">
+                    <img src="https://images.pexels.com/photos/2549944/pexels-photo-2549944.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+                </div>
+                <div class="polygon w-200px h-200px">
+                    <img src="https://images.pexels.com/photos/831889/pexels-photo-831889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                </div>
+                <div class="polygon w-200px h-200px">
+                    <img src="https://images.pexels.com/photos/2017443/pexels-photo-2017443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                </div>
+            </div>
 
+        </div>
+    </div>
 
 </div>
+
+
 <script type="module">
     import './components/FireFlies.js'
 </script>

@@ -8,6 +8,9 @@ html,body{
 body{
   background-image: url("../assets/bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 @import "variables";
 @import "../node_modules/gaudiamus-css/scss";
@@ -16,6 +19,7 @@ body{
 @import "button";
 @import "form";
 @import "menu";
+@import "effects";
 
 
 

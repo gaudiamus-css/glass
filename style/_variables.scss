@@ -22,8 +22,8 @@ $property-map: ("m":"margin", "p":"padding");
 $position-key: "position";
 $position-map: ("relative", "absolute", "fixed");
 
-$height-width-unit-map: ("p":"%");
-$height-width-value-map: ("25", "50", "75", "80", "90", "100");
+$height-width-unit-map: ("p":"%", "px":"px");
+$height-width-value-map: ("25", "50", "75", "80", "90", "100", "200", "300");
 
 
 /* Colors */
@@ -68,7 +68,7 @@ $darken-map: (
 /*
 * Opacity
 */
-$opacity-map: ("50":.5, "75":.75, "85":.85, "90":.9, "95":.95);
+$opacity-map: ("25":.25, "50":.5, "75":.75, "85":.85, "90":.9, "95":.95);
 
 /*
 * State
@@ -89,6 +89,9 @@ $raise-key: "raise";
 $cursor-key: "cursor";
 $cursor-map: ("pointer":"pointer");
 
+.b-round{
+  border-radius: 50%;
+}
 
 /* Typography */
 
@@ -117,3 +120,10 @@ $display-key: "d";
 $display-map: ("hidden":"none", "flex":"flex", "block":"block","inline":"inline");
 $flex-key: "f";
 $flex-map: ("1":"1");
+
+/*
+* Divider
+*/
+hr{
+  @extend .b-1, .b-transparent, .raise-1-accent-light;
+}
