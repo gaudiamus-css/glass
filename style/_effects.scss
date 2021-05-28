@@ -27,3 +27,10 @@
   transform: translate(-100px,400%) rotate(45deg);
   transition:transform 0.5s;
 }
+.hidden{
+  opacity: 0;
+}
+.appear{
+  opacity: 1;
+  transition: opacity ease-in .5s;
+}

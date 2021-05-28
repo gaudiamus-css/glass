@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
           rel="stylesheet">
 </head>
-<body class="bg-primary">
+<body class="bg-black">
 <fire-flies></fire-flies>
 <header class="p-3 bg-primary-50 b-b-2 b-white raise-1-accent">
     <div class="container d-flex">
@@ -21,30 +21,14 @@
             <button class="menu-link">link 3</button>
         </div>
         <div class="place-y-center position-relative md:d-hidden text-white font-xl">
-            <button class="icon-button-white" id="toggleMenu" data-menu="menu"><span class="material-icons-outlined">drag_indicator</span></button>
+            <button class="icon-button-white" data-toggle data-source="menu" data-target="mobile-menu"><span class="material-icons-outlined">drag_indicator</span></button>
         </div>
 
     </div>
-    <script>
-        document.querySelector('#toggleMenu').addEventListener('click', ev => {
-            const elements = document.getElementById(ev.target.parentElement.dataset.menu).childNodes;
-            const mobileMenu = document.getElementById('mobile-menu');
 
-            mobileMenu.style.display = mobileMenu.style.display === 'none' ? 'block' : 'none';
-            mobileMenu.querySelector('section').innerText = '';
-            let counter = -300;
-            for(let i = 0; i < elements.length; i++){
-                if(elements[i].nodeType === 1){
-                    counter += 300;
-                    setTimeout(()=>{mobileMenu.querySelector('section').appendChild(elements[i].cloneNode(true))}, counter)
-
-                }
-            }
-
-        })
-    </script>
 </header>
-<div class="backdrop bg-black-75 position-absolute w-100p h-100p" style="display: none" id="mobile-menu">
+
+<div class="backdrop bg-black-75 position-absolute w-100p h-100p"  id="mobile-menu">
     <section class="position-absolute card grid w-50p" style="right:10px; z-index: 10;" ></section>
 </div>
 
@@ -95,12 +79,16 @@
             <button class="button-teal m-y-1">.button-teal</button>
             <button class="button-teal-light m-y-1">.button-teal-light</button>
             <p class="text-white">With .b-rounded</p>
-            <button class="button-primary m-y-1 b-rounded">.button-primary</button>
-            <button class="button-accent m-y-1 b-rounded">.button-accent</button>
-            <button class="button-success m-y-1 b-rounded">.button-success</button>
-            <button class="button-warning m-y-1 b-rounded">.button-warning</button>
-            <button class="button-teal m-y-1 b-rounded">.button-teal</button>
-            <button class="button-teal-light m-y-1 b-rounded">.button-teal-light</button>
+            <button class="button-primary m-y-1 b-rounded">.b-rounded</button>
+            <button class="button-accent m-y-1 b-rounded">.b-rounded</button>
+            <button class="button-success m-y-1 b-rounded">.b-rounded</button>
+            <button class="button-warning m-y-1 b-rounded-2">.b-rounded-2</button>
+            <button class="button-teal m-y-1 b-rounded-3">.b-rounded-3</button>
+            <button class="button-teal-light m-y-1 b-round">.b-round</button>
+            <p class="text-white">Sizes</p>
+            <button class="button-primary m-y-1 font-sm">.font-sm</button>
+            <button class="button-accent m-y-1 font-default">.font-default</button>
+            <button class="button-teal m-y-1 font-md">.font-md</button>
             <p class="text-white">Icon-buttons</p>
             <button class="icon-button-primary">
                 <span class="material-icons-outlined">code</span>
@@ -117,24 +105,99 @@
         </div>
     </div>
     <div class="card" style="margin-top: 200px">
+        <div class="grid bg-gray-50 p-3">
+            <h2 class="place-x-center text-white font-lg">Form</h2>
+        </div>
+        <div class="p-3">
+            <form>
+                <div class="grid md:grid-6-6">
+                    <label class="grid-4-8 m-t-3">
+                        <span class="text-white">Placeholder</span>
+                        <input type="text" placeholder="Your name" />
+                    </label>
+                    <label class="grid-4-8 m-t-3 md:m-l-2">
+                        <span class="text-white">Text input</span>
+                        <input type="text" />
+                    </label>
+                    <label class="grid-4-8 m-t-3">
+                        <span class="text-white">With value</span>
+                        <input type="text" value="prefilled" />
+                    </label>
+                    <label class="grid-4-8 m-t-3  md:m-l-2">
+                        <span class="text-white">Select</span>
+                        <select class="styled">
+                            <option disabled selected>choose</option>
+                            <option value="0">one</option>
+                            <option value="1">two</option>
+                        </select>
+                    </label>
+                    <label class="grid-4-8 m-t-3">
+                        <span class="text-white">Checkbox</span>
+                        <input type="checkbox" class="position-relative"  />
+                    </label>
+                </div>
+                <div class="grid">
+                    <textarea class="m-y-3" rows="10">Textarea</textarea>
+                </div>
+                <div class="grid">
+                    <button class="m-r-0 button-primary font-md place-x-end ">send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="card" style="margin-top: 200px">
         <div class="grid bg-teal-50 p-3">
             <h2 class="place-x-center text-white font-lg">Polygons</h2>
-            <p class="place-x-center text-white font-sm">*Shown color selection is arbitrary and incomplete</p>
         </div>
         <div class="p-3">
             <div class="md:d-flex" style="justify-content: space-between">
-                <div class="polygon w-200px h-200px">
+                <div class="polygon w-200px h-200px m-t-4">
                     <img src="https://images.pexels.com/photos/2549944/pexels-photo-2549944.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
                 </div>
-                <div class="polygon w-200px h-200px">
+                <div class="polygon w-200px h-200px m-t-4">
                     <img src="https://images.pexels.com/photos/831889/pexels-photo-831889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
                 </div>
-                <div class="polygon w-200px h-200px">
+                <div class="polygon w-200px h-200px m-t-4">
                     <img src="https://images.pexels.com/photos/2017443/pexels-photo-2017443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
                 </div>
             </div>
 
         </div>
+    </div>
+    <div class="card m-b-5" style="margin-top: 200px">
+        <div class="grid bg-success-50 p-3">
+            <h2 class="place-x-center text-white font-lg">Cards</h2>
+        </div>
+
+    </div>
+    <div class="grid md:grid-4-4-4 " >
+        <div class="card p-3 place-x-start m-t-2 w-80p">
+            <p class="text-white font-md">Simple glass card</p>
+        </div>
+        <div class="card  place-x-center m-t-2 w-80p">
+            <div class="grid bg-warning-50 p-3">
+                <h2 class="place-x-center text-white font-lg">Card with header</h2>
+            </div>
+            <p class="text-white font-md p-3">Content</p>
+        </div>
+        <div class="card  place-x-end m-t-2 w-80p">
+            <div class="grid bg-gray-50 p-3">
+                <h2 class="place-x-center text-white font-lg">Header</h2>
+            </div>
+            <p class="text-white font-md p-3">Content</p>
+            <div class="grid-6-6 bg-gray-50 p-x-3 p-y-2">
+                <button class="button-accent m-y-1 b-rounded">footer</button>
+                <button class="button-accent m-y-1 b-rounded">footer</button>
+            </div>
+        </div>
+    </div>
+    <div class="card m-b-5 p-3" style="margin-top: 200px">
+        <p class="text-white font-md">
+            <span class="font-strong">GLASS</span> is built with <a class="text-accent text-decoration-none" href="https://gaudiamus-css.github.io">Gaudiamus CSS</a> and therefore highly customizable. All colors, sizes & defaults can be easily adjusted using the provided SCSS.
+            This template is MIT licensed. You can use it in all projects, private and commercial, free of charge. <br>
+            Please not that google fonts have their own respective licenses. <br>
+            <a href="https://github.com/gaudiamus-css/glass#readme" class="text-accent text-decoration-none">&copy;2021 neoan (Stefan Roehrl)</a>
+        </p>
     </div>
 
 </div>
@@ -142,6 +205,7 @@
 
 <script type="module">
     import './components/FireFlies.js'
+    import './components/toggle.js'
 </script>
 </body>
 </html>

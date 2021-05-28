@@ -6,12 +6,13 @@ html,body{
   font-size: medium;
 }
 body{
-  background-image: url("../assets/bg.jpg");
+  background-image: url("../assets/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow-x: hidden;
 }
+
 @import "variables";
 @import "../node_modules/gaudiamus-css/scss";
 
