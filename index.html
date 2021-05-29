@@ -13,12 +13,12 @@
 <header class="p-3 bg-primary-50 b-b-2 b-white raise-1-accent">
     <div class="container d-flex">
         <div class="f-1">
-            <p class="text-white text-lg">LOGO</p>
+            <p class="text-white text-lg">YOUR LOGO</p>
         </div>
         <div class="place-y-center position-relative md:d-block d-hidden " id="menu">
-            <button class="menu-link">link 1</button>
-            <button class="menu-link">link 2</button>
-            <button class="menu-link">link 3</button>
+            <button class="menu-link">menu link 1</button>
+            <button class="menu-link">menu link 2</button>
+            <button class="menu-link">menu link 3</button>
         </div>
         <div class="place-y-center position-relative md:d-hidden text-white font-xl">
             <button class="icon-button-white" data-toggle data-source="menu" data-target="mobile-menu"><span class="material-icons-outlined">drag_indicator</span></button>
@@ -89,6 +89,7 @@
             <button class="button-primary m-y-1 font-sm">.font-sm</button>
             <button class="button-accent m-y-1 font-default">.font-default</button>
             <button class="button-teal m-y-1 font-md">.font-md</button>
+            <button class="button-teal-light m-y-1 font-lg">.font-lg</button>
             <p class="text-white">Icon-buttons</p>
             <button class="icon-button-primary">
                 <span class="material-icons-outlined">code</span>
@@ -140,7 +141,7 @@
                     <textarea class="m-y-3" rows="10">Textarea</textarea>
                 </div>
                 <div class="grid">
-                    <button class="m-r-0 button-primary font-md place-x-end ">send</button>
+                    <button class="button-primary m-r-0 font-md place-x-end ">send</button>
                 </div>
             </form>
         </div>
@@ -170,27 +171,75 @@
         </div>
 
     </div>
-    <div class="grid md:grid-4-4-4 " >
-        <div class="card p-3 place-x-start m-t-2 w-80p">
-            <p class="text-white font-md">Simple glass card</p>
-        </div>
-        <div class="card  place-x-center m-t-2 w-80p">
-            <div class="grid bg-warning-50 p-3">
-                <h2 class="place-x-center text-white font-lg">Card with header</h2>
+    <div>
+        <div class="grid md:grid-6-6 " >
+            <div class="card m-y-2 ">
+                <p class="p-3 text-white font-md">Simple glass card</p>
             </div>
-            <p class="text-white font-md p-3">Content</p>
-        </div>
-        <div class="card  place-x-end m-t-2 w-80p">
-            <div class="grid bg-gray-50 p-3">
-                <h2 class="place-x-center text-white font-lg">Header</h2>
+            <div class="card  m-y-2 md:m-l-3">
+                <div class="grid bg-warning-50 p-3">
+                    <h2 class="place-x-center text-white font-lg">Card with header</h2>
+                </div>
+                <p class="text-white font-md p-3">Content</p>
             </div>
-            <p class="text-white font-md p-3">Content</p>
-            <div class="grid-6-6 bg-gray-50 p-x-3 p-y-2">
-                <button class="button-accent m-y-1 b-rounded">footer</button>
-                <button class="button-accent m-y-1 b-rounded">footer</button>
+
+            <div class="card m-y-2 ">
+                <div class="grid bg-gray-50 p-3">
+                    <h2 class="place-x-center text-white font-lg">Header</h2>
+                </div>
+                <p class="text-white font-md p-3">Content</p>
+                <div class="grid-6-6 bg-gray-50 p-x-3 p-y-2">
+                    <button class="button-accent m-y-1 b-rounded">footer</button>
+                    <button class="button-accent m-y-1 b-rounded">footer</button>
+                </div>
+            </div>
+            <div class="card p-3 md:m-l-3 m-y-2 b-rounded">
+                <p class="text-white font-md">card with .rounded</p>
+                <div class="p-5">
+                    <div class="card b-rounded p-3 text-white">stacked card</div>
+                </div>
+            </div>
+            <div class="card p-3  m-y-2 b-rounded-2">
+                <p class="text-white font-md">card with .rounded-2</p>
+            </div>
+            <div class="card p-3  md:m-l-3 m-y-2 b-rounded-3">
+                <p class="text-white font-md">card with .rounded-3</p>
+
             </div>
         </div>
     </div>
+    <div class="card m-b-5" style="margin-top: 200px">
+        <div class="grid bg-teal-light-50 p-3">
+            <h2 class="place-x-center text-white font-lg">List example</h2>
+        </div>
+
+        <div class="grid-4-4-4 text-white p-2">
+            <p class="b-b-2 b-white p-2 text-center font-strong">Name</p>
+            <p class="b-b-2 b-white p-2 text-center font-strong m-x-1">Email</p>
+            <p class="b-b-2 b-white p-2 text-center font-strong">Tel</p>
+
+        </div>
+
+        <div class="grid-4-4-4 text-white p-2">
+            <p class="text-center">Sam</p>
+            <p class="text-center"><span class="material-icons-outlined">email</span><br> Samsam@email.com</p>
+            <p class="text-center"><span class="material-icons-outlined">phone_enabled</span><br> +49 172 1111111</p>
+        </div>
+        <hr class="m-x-5">
+        <div class="grid-4-4-4 text-white p-2">
+            <p class="text-center">John</p>
+            <p class="text-center"><span class="material-icons-outlined">email</span><br> john88@email.com</p>
+            <p class="text-center"><span class="material-icons-outlined">phone_enabled</span><br> +49 172 1111111</p>
+        </div>
+        <hr class="m-x-5">
+        <div class="grid-4-4-4 text-white p-2">
+            <p class="text-center">Nancy</p>
+            <p class="text-center"><span class="material-icons-outlined">email</span><br> NacyFancy@email.com</p>
+            <p class="text-center"><span class="material-icons-outlined">phone_enabled</span><br> +49 172 1111111</p>
+        </div>
+        <hr class="m-x-5 m-b-4">
+    </div>
+
     <div class="card m-b-5 p-3" style="margin-top: 200px">
         <p class="text-white font-md">
             <span class="font-strong">GLASS</span> is built with <a class="text-accent text-decoration-none" href="https://gaudiamus-css.github.io">Gaudiamus CSS</a> and therefore highly customizable. All colors, sizes & defaults can be easily adjusted using the provided SCSS.
