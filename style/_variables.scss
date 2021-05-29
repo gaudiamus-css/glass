@@ -127,3 +127,8 @@ $flex-map: ("1":"1");
 hr{
   @extend .b-1, .b-transparent, .raise-1-accent-light;
 }
+
+/*
+* GLASS
+*/
+$blur-ratio: 10px;

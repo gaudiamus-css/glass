@@ -59,6 +59,9 @@ body {
 * Divider
 */
 /*
+* GLASS
+*/
+/*
 * Generates states for a given class
 */
 /*
@@ -67778,13 +67781,13 @@ html, body, iframe {
 }
 .card {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .button, [class^=button-], .icon-button, .icon-button-teal-lighter-darker-95, .icon-button-black-lighter-darker-95, .icon-button-white-lighter-darker-95, .icon-button-gray-lighter-darker-95, .icon-button-transparent-lighter-darker-95, .icon-button-warning-lighter-darker-95, .icon-button-success-lighter-darker-95, .icon-button-accent-lighter-darker-95, .icon-button-primary-lighter-darker-95, .icon-button-teal-light-darker-95, .icon-button-black-light-darker-95, .icon-button-white-light-darker-95, .icon-button-gray-light-darker-95, .icon-button-transparent-light-darker-95, .icon-button-warning-light-darker-95, .icon-button-success-light-darker-95, .icon-button-accent-light-darker-95, .icon-button-primary-light-darker-95, .icon-button-teal-darker-95, .icon-button-black-darker-95, .icon-button-white-darker-95, .icon-button-gray-darker-95, .icon-button-transparent-darker-95, .icon-button-warning-darker-95, .icon-button-success-darker-95, .icon-button-accent-darker-95, .icon-button-primary-darker-95, .icon-button-teal-lighter-dark-95, .icon-button-black-lighter-dark-95, .icon-button-white-lighter-dark-95, .icon-button-gray-lighter-dark-95, .icon-button-transparent-lighter-dark-95, .icon-button-warning-lighter-dark-95, .icon-button-success-lighter-dark-95, .icon-button-accent-lighter-dark-95, .icon-button-primary-lighter-dark-95, .icon-button-teal-light-dark-95, .icon-button-black-light-dark-95, .icon-button-white-light-dark-95, .icon-button-gray-light-dark-95, .icon-button-transparent-light-dark-95, .icon-button-warning-light-dark-95, .icon-button-success-light-dark-95, .icon-button-accent-light-dark-95, .icon-button-primary-light-dark-95, .icon-button-teal-dark-95, .icon-button-black-dark-95, .icon-button-white-dark-95, .icon-button-gray-dark-95, .icon-button-transparent-dark-95, .icon-button-warning-dark-95, .icon-button-success-dark-95, .icon-button-accent-dark-95, .icon-button-primary-dark-95, .icon-button-teal-lighter-95, .icon-button-black-lighter-95, .icon-button-white-lighter-95, .icon-button-gray-lighter-95, .icon-button-transparent-lighter-95, .icon-button-warning-lighter-95, .icon-button-success-lighter-95, .icon-button-accent-lighter-95, .icon-button-primary-lighter-95, .icon-button-teal-light-95, .icon-button-black-light-95, .icon-button-white-light-95, .icon-button-gray-light-95, .icon-button-transparent-light-95, .icon-button-warning-light-95, .icon-button-success-light-95, .icon-button-accent-light-95, .icon-button-primary-light-95, .icon-button-teal-95, .icon-button-black-95, .icon-button-white-95, .icon-button-gray-95, .icon-button-transparent-95, .icon-button-warning-95, .icon-button-success-95, .icon-button-accent-95, .icon-button-primary-95, .icon-button-teal-lighter-darker-90, .icon-button-black-lighter-darker-90, .icon-button-white-lighter-darker-90, .icon-button-gray-lighter-darker-90, .icon-button-transparent-lighter-darker-90, .icon-button-warning-lighter-darker-90, .icon-button-success-lighter-darker-90, .icon-button-accent-lighter-darker-90, .icon-button-primary-lighter-darker-90, .icon-button-teal-light-darker-90, .icon-button-black-light-darker-90, .icon-button-white-light-darker-90, .icon-button-gray-light-darker-90, .icon-button-transparent-light-darker-90, .icon-button-warning-light-darker-90, .icon-button-success-light-darker-90, .icon-button-accent-light-darker-90, .icon-button-primary-light-darker-90, .icon-button-teal-darker-90, .icon-button-black-darker-90, .icon-button-white-darker-90, .icon-button-gray-darker-90, .icon-button-transparent-darker-90, .icon-button-warning-darker-90, .icon-button-success-darker-90, .icon-button-accent-darker-90, .icon-button-primary-darker-90, .icon-button-teal-lighter-dark-90, .icon-button-black-lighter-dark-90, .icon-button-white-lighter-dark-90, .icon-button-gray-lighter-dark-90, .icon-button-transparent-lighter-dark-90, .icon-button-warning-lighter-dark-90, .icon-button-success-lighter-dark-90, .icon-button-accent-lighter-dark-90, .icon-button-primary-lighter-dark-90, .icon-button-teal-light-dark-90, .icon-button-black-light-dark-90, .icon-button-white-light-dark-90, .icon-button-gray-light-dark-90, .icon-button-transparent-light-dark-90, .icon-button-warning-light-dark-90, .icon-button-success-light-dark-90, .icon-button-accent-light-dark-90, .icon-button-primary-light-dark-90, .icon-button-teal-dark-90, .icon-button-black-dark-90, .icon-button-white-dark-90, .icon-button-gray-dark-90, .icon-button-transparent-dark-90, .icon-button-warning-dark-90, .icon-button-success-dark-90, .icon-button-accent-dark-90, .icon-button-primary-dark-90, .icon-button-teal-lighter-90, .icon-button-black-lighter-90, .icon-button-white-lighter-90, .icon-button-gray-lighter-90, .icon-button-transparent-lighter-90, .icon-button-warning-lighter-90, .icon-button-success-lighter-90, .icon-button-accent-lighter-90, .icon-button-primary-lighter-90, .icon-button-teal-light-90, .icon-button-black-light-90, .icon-button-white-light-90, .icon-button-gray-light-90, .icon-button-transparent-light-90, .icon-button-warning-light-90, .icon-button-success-light-90, .icon-button-accent-light-90, .icon-button-primary-light-90, .icon-button-teal-90, .icon-button-black-90, .icon-button-white-90, .icon-button-gray-90, .icon-button-transparent-90, .icon-button-warning-90, .icon-button-success-90, .icon-button-accent-90, .icon-button-primary-90, .icon-button-teal-lighter-darker-85, .icon-button-black-lighter-darker-85, .icon-button-white-lighter-darker-85, .icon-button-gray-lighter-darker-85, .icon-button-transparent-lighter-darker-85, .icon-button-warning-lighter-darker-85, .icon-button-success-lighter-darker-85, .icon-button-accent-lighter-darker-85, .icon-button-primary-lighter-darker-85, .icon-button-teal-light-darker-85, .icon-button-black-light-darker-85, .icon-button-white-light-darker-85, .icon-button-gray-light-darker-85, .icon-button-transparent-light-darker-85, .icon-button-warning-light-darker-85, .icon-button-success-light-darker-85, .icon-button-accent-light-darker-85, .icon-button-primary-light-darker-85, .icon-button-teal-darker-85, .icon-button-black-darker-85, .icon-button-white-darker-85, .icon-button-gray-darker-85, .icon-button-transparent-darker-85, .icon-button-warning-darker-85, .icon-button-success-darker-85, .icon-button-accent-darker-85, .icon-button-primary-darker-85, .icon-button-teal-lighter-dark-85, .icon-button-black-lighter-dark-85, .icon-button-white-lighter-dark-85, .icon-button-gray-lighter-dark-85, .icon-button-transparent-lighter-dark-85, .icon-button-warning-lighter-dark-85, .icon-button-success-lighter-dark-85, .icon-button-accent-lighter-dark-85, .icon-button-primary-lighter-dark-85, .icon-button-teal-light-dark-85, .icon-button-black-light-dark-85, .icon-button-white-light-dark-85, .icon-button-gray-light-dark-85, .icon-button-transparent-light-dark-85, .icon-button-warning-light-dark-85, .icon-button-success-light-dark-85, .icon-button-accent-light-dark-85, .icon-button-primary-light-dark-85, .icon-button-teal-dark-85, .icon-button-black-dark-85, .icon-button-white-dark-85, .icon-button-gray-dark-85, .icon-button-transparent-dark-85, .icon-button-warning-dark-85, .icon-button-success-dark-85, .icon-button-accent-dark-85, .icon-button-primary-dark-85, .icon-button-teal-lighter-85, .icon-button-black-lighter-85, .icon-button-white-lighter-85, .icon-button-gray-lighter-85, .icon-button-transparent-lighter-85, .icon-button-warning-lighter-85, .icon-button-success-lighter-85, .icon-button-accent-lighter-85, .icon-button-primary-lighter-85, .icon-button-teal-light-85, .icon-button-black-light-85, .icon-button-white-light-85, .icon-button-gray-light-85, .icon-button-transparent-light-85, .icon-button-warning-light-85, .icon-button-success-light-85, .icon-button-accent-light-85, .icon-button-primary-light-85, .icon-button-teal-85, .icon-button-black-85, .icon-button-white-85, .icon-button-gray-85, .icon-button-transparent-85, .icon-button-warning-85, .icon-button-success-85, .icon-button-accent-85, .icon-button-primary-85, .icon-button-teal-lighter-darker-75, .icon-button-black-lighter-darker-75, .icon-button-white-lighter-darker-75, .icon-button-gray-lighter-darker-75, .icon-button-transparent-lighter-darker-75, .icon-button-warning-lighter-darker-75, .icon-button-success-lighter-darker-75, .icon-button-accent-lighter-darker-75, .icon-button-primary-lighter-darker-75, .icon-button-teal-light-darker-75, .icon-button-black-light-darker-75, .icon-button-white-light-darker-75, .icon-button-gray-light-darker-75, .icon-button-transparent-light-darker-75, .icon-button-warning-light-darker-75, .icon-button-success-light-darker-75, .icon-button-accent-light-darker-75, .icon-button-primary-light-darker-75, .icon-button-teal-darker-75, .icon-button-black-darker-75, .icon-button-white-darker-75, .icon-button-gray-darker-75, .icon-button-transparent-darker-75, .icon-button-warning-darker-75, .icon-button-success-darker-75, .icon-button-accent-darker-75, .icon-button-primary-darker-75, .icon-button-teal-lighter-dark-75, .icon-button-black-lighter-dark-75, .icon-button-white-lighter-dark-75, .icon-button-gray-lighter-dark-75, .icon-button-transparent-lighter-dark-75, .icon-button-warning-lighter-dark-75, .icon-button-success-lighter-dark-75, .icon-button-accent-lighter-dark-75, .icon-button-primary-lighter-dark-75, .icon-button-teal-light-dark-75, .icon-button-black-light-dark-75, .icon-button-white-light-dark-75, .icon-button-gray-light-dark-75, .icon-button-transparent-light-dark-75, .icon-button-warning-light-dark-75, .icon-button-success-light-dark-75, .icon-button-accent-light-dark-75, .icon-button-primary-light-dark-75, .icon-button-teal-dark-75, .icon-button-black-dark-75, .icon-button-white-dark-75, .icon-button-gray-dark-75, .icon-button-transparent-dark-75, .icon-button-warning-dark-75, .icon-button-success-dark-75, .icon-button-accent-dark-75, .icon-button-primary-dark-75, .icon-button-teal-lighter-75, .icon-button-black-lighter-75, .icon-button-white-lighter-75, .icon-button-gray-lighter-75, .icon-button-transparent-lighter-75, .icon-button-warning-lighter-75, .icon-button-success-lighter-75, .icon-button-accent-lighter-75, .icon-button-primary-lighter-75, .icon-button-teal-light-75, .icon-button-black-light-75, .icon-button-white-light-75, .icon-button-gray-light-75, .icon-button-transparent-light-75, .icon-button-warning-light-75, .icon-button-success-light-75, .icon-button-accent-light-75, .icon-button-primary-light-75, .icon-button-teal-75, .icon-button-black-75, .icon-button-white-75, .icon-button-gray-75, .icon-button-transparent-75, .icon-button-warning-75, .icon-button-success-75, .icon-button-accent-75, .icon-button-primary-75, .icon-button-teal-lighter-darker-50, .icon-button-black-lighter-darker-50, .icon-button-white-lighter-darker-50, .icon-button-gray-lighter-darker-50, .icon-button-transparent-lighter-darker-50, .icon-button-warning-lighter-darker-50, .icon-button-success-lighter-darker-50, .icon-button-accent-lighter-darker-50, .icon-button-primary-lighter-darker-50, .icon-button-teal-light-darker-50, .icon-button-black-light-darker-50, .icon-button-white-light-darker-50, .icon-button-gray-light-darker-50, .icon-button-transparent-light-darker-50, .icon-button-warning-light-darker-50, .icon-button-success-light-darker-50, .icon-button-accent-light-darker-50, .icon-button-primary-light-darker-50, .icon-button-teal-darker-50, .icon-button-black-darker-50, .icon-button-white-darker-50, .icon-button-gray-darker-50, .icon-button-transparent-darker-50, .icon-button-warning-darker-50, .icon-button-success-darker-50, .icon-button-accent-darker-50, .icon-button-primary-darker-50, .icon-button-teal-lighter-dark-50, .icon-button-black-lighter-dark-50, .icon-button-white-lighter-dark-50, .icon-button-gray-lighter-dark-50, .icon-button-transparent-lighter-dark-50, .icon-button-warning-lighter-dark-50, .icon-button-success-lighter-dark-50, .icon-button-accent-lighter-dark-50, .icon-button-primary-lighter-dark-50, .icon-button-teal-light-dark-50, .icon-button-black-light-dark-50, .icon-button-white-light-dark-50, .icon-button-gray-light-dark-50, .icon-button-transparent-light-dark-50, .icon-button-warning-light-dark-50, .icon-button-success-light-dark-50, .icon-button-accent-light-dark-50, .icon-button-primary-light-dark-50, .icon-button-teal-dark-50, .icon-button-black-dark-50, .icon-button-white-dark-50, .icon-button-gray-dark-50, .icon-button-transparent-dark-50, .icon-button-warning-dark-50, .icon-button-success-dark-50, .icon-button-accent-dark-50, .icon-button-primary-dark-50, .icon-button-teal-lighter-50, .icon-button-black-lighter-50, .icon-button-white-lighter-50, .icon-button-gray-lighter-50, .icon-button-transparent-lighter-50, .icon-button-warning-lighter-50, .icon-button-success-lighter-50, .icon-button-accent-lighter-50, .icon-button-primary-lighter-50, .icon-button-teal-light-50, .icon-button-black-light-50, .icon-button-white-light-50, .icon-button-gray-light-50, .icon-button-transparent-light-50, .icon-button-warning-light-50, .icon-button-success-light-50, .icon-button-accent-light-50, .icon-button-primary-light-50, .icon-button-teal-50, .icon-button-black-50, .icon-button-white-50, .icon-button-gray-50, .icon-button-transparent-50, .icon-button-warning-50, .icon-button-success-50, .icon-button-accent-50, .icon-button-primary-50, .icon-button-teal-lighter-darker-25, .icon-button-black-lighter-darker-25, .icon-button-white-lighter-darker-25, .icon-button-gray-lighter-darker-25, .icon-button-transparent-lighter-darker-25, .icon-button-warning-lighter-darker-25, .icon-button-success-lighter-darker-25, .icon-button-accent-lighter-darker-25, .icon-button-primary-lighter-darker-25, .icon-button-teal-light-darker-25, .icon-button-black-light-darker-25, .icon-button-white-light-darker-25, .icon-button-gray-light-darker-25, .icon-button-transparent-light-darker-25, .icon-button-warning-light-darker-25, .icon-button-success-light-darker-25, .icon-button-accent-light-darker-25, .icon-button-primary-light-darker-25, .icon-button-teal-darker-25, .icon-button-black-darker-25, .icon-button-white-darker-25, .icon-button-gray-darker-25, .icon-button-transparent-darker-25, .icon-button-warning-darker-25, .icon-button-success-darker-25, .icon-button-accent-darker-25, .icon-button-primary-darker-25, .icon-button-teal-lighter-dark-25, .icon-button-black-lighter-dark-25, .icon-button-white-lighter-dark-25, .icon-button-gray-lighter-dark-25, .icon-button-transparent-lighter-dark-25, .icon-button-warning-lighter-dark-25, .icon-button-success-lighter-dark-25, .icon-button-accent-lighter-dark-25, .icon-button-primary-lighter-dark-25, .icon-button-teal-light-dark-25, .icon-button-black-light-dark-25, .icon-button-white-light-dark-25, .icon-button-gray-light-dark-25, .icon-button-transparent-light-dark-25, .icon-button-warning-light-dark-25, .icon-button-success-light-dark-25, .icon-button-accent-light-dark-25, .icon-button-primary-light-dark-25, .icon-button-teal-dark-25, .icon-button-black-dark-25, .icon-button-white-dark-25, .icon-button-gray-dark-25, .icon-button-transparent-dark-25, .icon-button-warning-dark-25, .icon-button-success-dark-25, .icon-button-accent-dark-25, .icon-button-primary-dark-25, .icon-button-teal-lighter-25, .icon-button-black-lighter-25, .icon-button-white-lighter-25, .icon-button-gray-lighter-25, .icon-button-transparent-lighter-25, .icon-button-warning-lighter-25, .icon-button-success-lighter-25, .icon-button-accent-lighter-25, .icon-button-primary-lighter-25, .icon-button-teal-light-25, .icon-button-black-light-25, .icon-button-white-light-25, .icon-button-gray-light-25, .icon-button-transparent-light-25, .icon-button-warning-light-25, .icon-button-success-light-25, .icon-button-accent-light-25, .icon-button-primary-light-25, .icon-button-teal-25, .icon-button-black-25, .icon-button-white-25, .icon-button-gray-25, .icon-button-transparent-25, .icon-button-warning-25, .icon-button-success-25, .icon-button-accent-25, .icon-button-primary-25, .icon-button-teal-lighter-darker, .icon-button-black-lighter-darker, .icon-button-white-lighter-darker, .icon-button-gray-lighter-darker, .icon-button-transparent-lighter-darker, .icon-button-warning-lighter-darker, .icon-button-success-lighter-darker, .icon-button-accent-lighter-darker, .icon-button-primary-lighter-darker, .icon-button-teal-light-darker, .icon-button-black-light-darker, .icon-button-white-light-darker, .icon-button-gray-light-darker, .icon-button-transparent-light-darker, .icon-button-warning-light-darker, .icon-button-success-light-darker, .icon-button-accent-light-darker, .icon-button-primary-light-darker, .icon-button-teal-darker, .icon-button-black-darker, .icon-button-white-darker, .icon-button-gray-darker, .icon-button-transparent-darker, .icon-button-warning-darker, .icon-button-success-darker, .icon-button-accent-darker, .icon-button-primary-darker, .icon-button-teal-lighter-dark, .icon-button-black-lighter-dark, .icon-button-white-lighter-dark, .icon-button-gray-lighter-dark, .icon-button-transparent-lighter-dark, .icon-button-warning-lighter-dark, .icon-button-success-lighter-dark, .icon-button-accent-lighter-dark, .icon-button-primary-lighter-dark, .icon-button-teal-light-dark, .icon-button-black-light-dark, .icon-button-white-light-dark, .icon-button-gray-light-dark, .icon-button-transparent-light-dark, .icon-button-warning-light-dark, .icon-button-success-light-dark, .icon-button-accent-light-dark, .icon-button-primary-light-dark, .icon-button-teal-dark, .icon-button-black-dark, .icon-button-white-dark, .icon-button-gray-dark, .icon-button-transparent-dark, .icon-button-warning-dark, .icon-button-success-dark, .icon-button-accent-dark, .icon-button-primary-dark, .icon-button-teal-lighter, .icon-button-black-lighter, .icon-button-white-lighter, .icon-button-gray-lighter, .icon-button-transparent-lighter, .icon-button-warning-lighter, .icon-button-success-lighter, .icon-button-accent-lighter, .icon-button-primary-lighter, .icon-button-teal-light, .icon-button-black-light, .icon-button-white-light, .icon-button-gray-light, .icon-button-transparent-light, .icon-button-warning-light, .icon-button-success-light, .icon-button-accent-light, .icon-button-primary-light, .icon-button-teal, .icon-button-black, .icon-button-white, .icon-button-gray, .icon-button-transparent, .icon-button-warning, .icon-button-success, .icon-button-accent, .icon-button-primary {
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .button::before, [class^=button-]::before, .icon-button::before, .icon-button-teal-lighter-darker-95::before, .icon-button-black-lighter-darker-95::before, .icon-button-white-lighter-darker-95::before, .icon-button-gray-lighter-darker-95::before, .icon-button-transparent-lighter-darker-95::before, .icon-button-warning-lighter-darker-95::before, .icon-button-success-lighter-darker-95::before, .icon-button-accent-lighter-darker-95::before, .icon-button-primary-lighter-darker-95::before, .icon-button-teal-light-darker-95::before, .icon-button-black-light-darker-95::before, .icon-button-white-light-darker-95::before, .icon-button-gray-light-darker-95::before, .icon-button-transparent-light-darker-95::before, .icon-button-warning-light-darker-95::before, .icon-button-success-light-darker-95::before, .icon-button-accent-light-darker-95::before, .icon-button-primary-light-darker-95::before, .icon-button-teal-darker-95::before, .icon-button-black-darker-95::before, .icon-button-white-darker-95::before, .icon-button-gray-darker-95::before, .icon-button-transparent-darker-95::before, .icon-button-warning-darker-95::before, .icon-button-success-darker-95::before, .icon-button-accent-darker-95::before, .icon-button-primary-darker-95::before, .icon-button-teal-lighter-dark-95::before, .icon-button-black-lighter-dark-95::before, .icon-button-white-lighter-dark-95::before, .icon-button-gray-lighter-dark-95::before, .icon-button-transparent-lighter-dark-95::before, .icon-button-warning-lighter-dark-95::before, .icon-button-success-lighter-dark-95::before, .icon-button-accent-lighter-dark-95::before, .icon-button-primary-lighter-dark-95::before, .icon-button-teal-light-dark-95::before, .icon-button-black-light-dark-95::before, .icon-button-white-light-dark-95::before, .icon-button-gray-light-dark-95::before, .icon-button-transparent-light-dark-95::before, .icon-button-warning-light-dark-95::before, .icon-button-success-light-dark-95::before, .icon-button-accent-light-dark-95::before, .icon-button-primary-light-dark-95::before, .icon-button-teal-dark-95::before, .icon-button-black-dark-95::before, .icon-button-white-dark-95::before, .icon-button-gray-dark-95::before, .icon-button-transparent-dark-95::before, .icon-button-warning-dark-95::before, .icon-button-success-dark-95::before, .icon-button-accent-dark-95::before, .icon-button-primary-dark-95::before, .icon-button-teal-lighter-95::before, .icon-button-black-lighter-95::before, .icon-button-white-lighter-95::before, .icon-button-gray-lighter-95::before, .icon-button-transparent-lighter-95::before, .icon-button-warning-lighter-95::before, .icon-button-success-lighter-95::before, .icon-button-accent-lighter-95::before, .icon-button-primary-lighter-95::before, .icon-button-teal-light-95::before, .icon-button-black-light-95::before, .icon-button-white-light-95::before, .icon-button-gray-light-95::before, .icon-button-transparent-light-95::before, .icon-button-warning-light-95::before, .icon-button-success-light-95::before, .icon-button-accent-light-95::before, .icon-button-primary-light-95::before, .icon-button-teal-95::before, .icon-button-black-95::before, .icon-button-white-95::before, .icon-button-gray-95::before, .icon-button-transparent-95::before, .icon-button-warning-95::before, .icon-button-success-95::before, .icon-button-accent-95::before, .icon-button-primary-95::before, .icon-button-teal-lighter-darker-90::before, .icon-button-black-lighter-darker-90::before, .icon-button-white-lighter-darker-90::before, .icon-button-gray-lighter-darker-90::before, .icon-button-transparent-lighter-darker-90::before, .icon-button-warning-lighter-darker-90::before, .icon-button-success-lighter-darker-90::before, .icon-button-accent-lighter-darker-90::before, .icon-button-primary-lighter-darker-90::before, .icon-button-teal-light-darker-90::before, .icon-button-black-light-darker-90::before, .icon-button-white-light-darker-90::before, .icon-button-gray-light-darker-90::before, .icon-button-transparent-light-darker-90::before, .icon-button-warning-light-darker-90::before, .icon-button-success-light-darker-90::before, .icon-button-accent-light-darker-90::before, .icon-button-primary-light-darker-90::before, .icon-button-teal-darker-90::before, .icon-button-black-darker-90::before, .icon-button-white-darker-90::before, .icon-button-gray-darker-90::before, .icon-button-transparent-darker-90::before, .icon-button-warning-darker-90::before, .icon-button-success-darker-90::before, .icon-button-accent-darker-90::before, .icon-button-primary-darker-90::before, .icon-button-teal-lighter-dark-90::before, .icon-button-black-lighter-dark-90::before, .icon-button-white-lighter-dark-90::before, .icon-button-gray-lighter-dark-90::before, .icon-button-transparent-lighter-dark-90::before, .icon-button-warning-lighter-dark-90::before, .icon-button-success-lighter-dark-90::before, .icon-button-accent-lighter-dark-90::before, .icon-button-primary-lighter-dark-90::before, .icon-button-teal-light-dark-90::before, .icon-button-black-light-dark-90::before, .icon-button-white-light-dark-90::before, .icon-button-gray-light-dark-90::before, .icon-button-transparent-light-dark-90::before, .icon-button-warning-light-dark-90::before, .icon-button-success-light-dark-90::before, .icon-button-accent-light-dark-90::before, .icon-button-primary-light-dark-90::before, .icon-button-teal-dark-90::before, .icon-button-black-dark-90::before, .icon-button-white-dark-90::before, .icon-button-gray-dark-90::before, .icon-button-transparent-dark-90::before, .icon-button-warning-dark-90::before, .icon-button-success-dark-90::before, .icon-button-accent-dark-90::before, .icon-button-primary-dark-90::before, .icon-button-teal-lighter-90::before, .icon-button-black-lighter-90::before, .icon-button-white-lighter-90::before, .icon-button-gray-lighter-90::before, .icon-button-transparent-lighter-90::before, .icon-button-warning-lighter-90::before, .icon-button-success-lighter-90::before, .icon-button-accent-lighter-90::before, .icon-button-primary-lighter-90::before, .icon-button-teal-light-90::before, .icon-button-black-light-90::before, .icon-button-white-light-90::before, .icon-button-gray-light-90::before, .icon-button-transparent-light-90::before, .icon-button-warning-light-90::before, .icon-button-success-light-90::before, .icon-button-accent-light-90::before, .icon-button-primary-light-90::before, .icon-button-teal-90::before, .icon-button-black-90::before, .icon-button-white-90::before, .icon-button-gray-90::before, .icon-button-transparent-90::before, .icon-button-warning-90::before, .icon-button-success-90::before, .icon-button-accent-90::before, .icon-button-primary-90::before, .icon-button-teal-lighter-darker-85::before, .icon-button-black-lighter-darker-85::before, .icon-button-white-lighter-darker-85::before, .icon-button-gray-lighter-darker-85::before, .icon-button-transparent-lighter-darker-85::before, .icon-button-warning-lighter-darker-85::before, .icon-button-success-lighter-darker-85::before, .icon-button-accent-lighter-darker-85::before, .icon-button-primary-lighter-darker-85::before, .icon-button-teal-light-darker-85::before, .icon-button-black-light-darker-85::before, .icon-button-white-light-darker-85::before, .icon-button-gray-light-darker-85::before, .icon-button-transparent-light-darker-85::before, .icon-button-warning-light-darker-85::before, .icon-button-success-light-darker-85::before, .icon-button-accent-light-darker-85::before, .icon-button-primary-light-darker-85::before, .icon-button-teal-darker-85::before, .icon-button-black-darker-85::before, .icon-button-white-darker-85::before, .icon-button-gray-darker-85::before, .icon-button-transparent-darker-85::before, .icon-button-warning-darker-85::before, .icon-button-success-darker-85::before, .icon-button-accent-darker-85::before, .icon-button-primary-darker-85::before, .icon-button-teal-lighter-dark-85::before, .icon-button-black-lighter-dark-85::before, .icon-button-white-lighter-dark-85::before, .icon-button-gray-lighter-dark-85::before, .icon-button-transparent-lighter-dark-85::before, .icon-button-warning-lighter-dark-85::before, .icon-button-success-lighter-dark-85::before, .icon-button-accent-lighter-dark-85::before, .icon-button-primary-lighter-dark-85::before, .icon-button-teal-light-dark-85::before, .icon-button-black-light-dark-85::before, .icon-button-white-light-dark-85::before, .icon-button-gray-light-dark-85::before, .icon-button-transparent-light-dark-85::before, .icon-button-warning-light-dark-85::before, .icon-button-success-light-dark-85::before, .icon-button-accent-light-dark-85::before, .icon-button-primary-light-dark-85::before, .icon-button-teal-dark-85::before, .icon-button-black-dark-85::before, .icon-button-white-dark-85::before, .icon-button-gray-dark-85::before, .icon-button-transparent-dark-85::before, .icon-button-warning-dark-85::before, .icon-button-success-dark-85::before, .icon-button-accent-dark-85::before, .icon-button-primary-dark-85::before, .icon-button-teal-lighter-85::before, .icon-button-black-lighter-85::before, .icon-button-white-lighter-85::before, .icon-button-gray-lighter-85::before, .icon-button-transparent-lighter-85::before, .icon-button-warning-lighter-85::before, .icon-button-success-lighter-85::before, .icon-button-accent-lighter-85::before, .icon-button-primary-lighter-85::before, .icon-button-teal-light-85::before, .icon-button-black-light-85::before, .icon-button-white-light-85::before, .icon-button-gray-light-85::before, .icon-button-transparent-light-85::before, .icon-button-warning-light-85::before, .icon-button-success-light-85::before, .icon-button-accent-light-85::before, .icon-button-primary-light-85::before, .icon-button-teal-85::before, .icon-button-black-85::before, .icon-button-white-85::before, .icon-button-gray-85::before, .icon-button-transparent-85::before, .icon-button-warning-85::before, .icon-button-success-85::before, .icon-button-accent-85::before, .icon-button-primary-85::before, .icon-button-teal-lighter-darker-75::before, .icon-button-black-lighter-darker-75::before, .icon-button-white-lighter-darker-75::before, .icon-button-gray-lighter-darker-75::before, .icon-button-transparent-lighter-darker-75::before, .icon-button-warning-lighter-darker-75::before, .icon-button-success-lighter-darker-75::before, .icon-button-accent-lighter-darker-75::before, .icon-button-primary-lighter-darker-75::before, .icon-button-teal-light-darker-75::before, .icon-button-black-light-darker-75::before, .icon-button-white-light-darker-75::before, .icon-button-gray-light-darker-75::before, .icon-button-transparent-light-darker-75::before, .icon-button-warning-light-darker-75::before, .icon-button-success-light-darker-75::before, .icon-button-accent-light-darker-75::before, .icon-button-primary-light-darker-75::before, .icon-button-teal-darker-75::before, .icon-button-black-darker-75::before, .icon-button-white-darker-75::before, .icon-button-gray-darker-75::before, .icon-button-transparent-darker-75::before, .icon-button-warning-darker-75::before, .icon-button-success-darker-75::before, .icon-button-accent-darker-75::before, .icon-button-primary-darker-75::before, .icon-button-teal-lighter-dark-75::before, .icon-button-black-lighter-dark-75::before, .icon-button-white-lighter-dark-75::before, .icon-button-gray-lighter-dark-75::before, .icon-button-transparent-lighter-dark-75::before, .icon-button-warning-lighter-dark-75::before, .icon-button-success-lighter-dark-75::before, .icon-button-accent-lighter-dark-75::before, .icon-button-primary-lighter-dark-75::before, .icon-button-teal-light-dark-75::before, .icon-button-black-light-dark-75::before, .icon-button-white-light-dark-75::before, .icon-button-gray-light-dark-75::before, .icon-button-transparent-light-dark-75::before, .icon-button-warning-light-dark-75::before, .icon-button-success-light-dark-75::before, .icon-button-accent-light-dark-75::before, .icon-button-primary-light-dark-75::before, .icon-button-teal-dark-75::before, .icon-button-black-dark-75::before, .icon-button-white-dark-75::before, .icon-button-gray-dark-75::before, .icon-button-transparent-dark-75::before, .icon-button-warning-dark-75::before, .icon-button-success-dark-75::before, .icon-button-accent-dark-75::before, .icon-button-primary-dark-75::before, .icon-button-teal-lighter-75::before, .icon-button-black-lighter-75::before, .icon-button-white-lighter-75::before, .icon-button-gray-lighter-75::before, .icon-button-transparent-lighter-75::before, .icon-button-warning-lighter-75::before, .icon-button-success-lighter-75::before, .icon-button-accent-lighter-75::before, .icon-button-primary-lighter-75::before, .icon-button-teal-light-75::before, .icon-button-black-light-75::before, .icon-button-white-light-75::before, .icon-button-gray-light-75::before, .icon-button-transparent-light-75::before, .icon-button-warning-light-75::before, .icon-button-success-light-75::before, .icon-button-accent-light-75::before, .icon-button-primary-light-75::before, .icon-button-teal-75::before, .icon-button-black-75::before, .icon-button-white-75::before, .icon-button-gray-75::before, .icon-button-transparent-75::before, .icon-button-warning-75::before, .icon-button-success-75::before, .icon-button-accent-75::before, .icon-button-primary-75::before, .icon-button-teal-lighter-darker-50::before, .icon-button-black-lighter-darker-50::before, .icon-button-white-lighter-darker-50::before, .icon-button-gray-lighter-darker-50::before, .icon-button-transparent-lighter-darker-50::before, .icon-button-warning-lighter-darker-50::before, .icon-button-success-lighter-darker-50::before, .icon-button-accent-lighter-darker-50::before, .icon-button-primary-lighter-darker-50::before, .icon-button-teal-light-darker-50::before, .icon-button-black-light-darker-50::before, .icon-button-white-light-darker-50::before, .icon-button-gray-light-darker-50::before, .icon-button-transparent-light-darker-50::before, .icon-button-warning-light-darker-50::before, .icon-button-success-light-darker-50::before, .icon-button-accent-light-darker-50::before, .icon-button-primary-light-darker-50::before, .icon-button-teal-darker-50::before, .icon-button-black-darker-50::before, .icon-button-white-darker-50::before, .icon-button-gray-darker-50::before, .icon-button-transparent-darker-50::before, .icon-button-warning-darker-50::before, .icon-button-success-darker-50::before, .icon-button-accent-darker-50::before, .icon-button-primary-darker-50::before, .icon-button-teal-lighter-dark-50::before, .icon-button-black-lighter-dark-50::before, .icon-button-white-lighter-dark-50::before, .icon-button-gray-lighter-dark-50::before, .icon-button-transparent-lighter-dark-50::before, .icon-button-warning-lighter-dark-50::before, .icon-button-success-lighter-dark-50::before, .icon-button-accent-lighter-dark-50::before, .icon-button-primary-lighter-dark-50::before, .icon-button-teal-light-dark-50::before, .icon-button-black-light-dark-50::before, .icon-button-white-light-dark-50::before, .icon-button-gray-light-dark-50::before, .icon-button-transparent-light-dark-50::before, .icon-button-warning-light-dark-50::before, .icon-button-success-light-dark-50::before, .icon-button-accent-light-dark-50::before, .icon-button-primary-light-dark-50::before, .icon-button-teal-dark-50::before, .icon-button-black-dark-50::before, .icon-button-white-dark-50::before, .icon-button-gray-dark-50::before, .icon-button-transparent-dark-50::before, .icon-button-warning-dark-50::before, .icon-button-success-dark-50::before, .icon-button-accent-dark-50::before, .icon-button-primary-dark-50::before, .icon-button-teal-lighter-50::before, .icon-button-black-lighter-50::before, .icon-button-white-lighter-50::before, .icon-button-gray-lighter-50::before, .icon-button-transparent-lighter-50::before, .icon-button-warning-lighter-50::before, .icon-button-success-lighter-50::before, .icon-button-accent-lighter-50::before, .icon-button-primary-lighter-50::before, .icon-button-teal-light-50::before, .icon-button-black-light-50::before, .icon-button-white-light-50::before, .icon-button-gray-light-50::before, .icon-button-transparent-light-50::before, .icon-button-warning-light-50::before, .icon-button-success-light-50::before, .icon-button-accent-light-50::before, .icon-button-primary-light-50::before, .icon-button-teal-50::before, .icon-button-black-50::before, .icon-button-white-50::before, .icon-button-gray-50::before, .icon-button-transparent-50::before, .icon-button-warning-50::before, .icon-button-success-50::before, .icon-button-accent-50::before, .icon-button-primary-50::before, .icon-button-teal-lighter-darker-25::before, .icon-button-black-lighter-darker-25::before, .icon-button-white-lighter-darker-25::before, .icon-button-gray-lighter-darker-25::before, .icon-button-transparent-lighter-darker-25::before, .icon-button-warning-lighter-darker-25::before, .icon-button-success-lighter-darker-25::before, .icon-button-accent-lighter-darker-25::before, .icon-button-primary-lighter-darker-25::before, .icon-button-teal-light-darker-25::before, .icon-button-black-light-darker-25::before, .icon-button-white-light-darker-25::before, .icon-button-gray-light-darker-25::before, .icon-button-transparent-light-darker-25::before, .icon-button-warning-light-darker-25::before, .icon-button-success-light-darker-25::before, .icon-button-accent-light-darker-25::before, .icon-button-primary-light-darker-25::before, .icon-button-teal-darker-25::before, .icon-button-black-darker-25::before, .icon-button-white-darker-25::before, .icon-button-gray-darker-25::before, .icon-button-transparent-darker-25::before, .icon-button-warning-darker-25::before, .icon-button-success-darker-25::before, .icon-button-accent-darker-25::before, .icon-button-primary-darker-25::before, .icon-button-teal-lighter-dark-25::before, .icon-button-black-lighter-dark-25::before, .icon-button-white-lighter-dark-25::before, .icon-button-gray-lighter-dark-25::before, .icon-button-transparent-lighter-dark-25::before, .icon-button-warning-lighter-dark-25::before, .icon-button-success-lighter-dark-25::before, .icon-button-accent-lighter-dark-25::before, .icon-button-primary-lighter-dark-25::before, .icon-button-teal-light-dark-25::before, .icon-button-black-light-dark-25::before, .icon-button-white-light-dark-25::before, .icon-button-gray-light-dark-25::before, .icon-button-transparent-light-dark-25::before, .icon-button-warning-light-dark-25::before, .icon-button-success-light-dark-25::before, .icon-button-accent-light-dark-25::before, .icon-button-primary-light-dark-25::before, .icon-button-teal-dark-25::before, .icon-button-black-dark-25::before, .icon-button-white-dark-25::before, .icon-button-gray-dark-25::before, .icon-button-transparent-dark-25::before, .icon-button-warning-dark-25::before, .icon-button-success-dark-25::before, .icon-button-accent-dark-25::before, .icon-button-primary-dark-25::before, .icon-button-teal-lighter-25::before, .icon-button-black-lighter-25::before, .icon-button-white-lighter-25::before, .icon-button-gray-lighter-25::before, .icon-button-transparent-lighter-25::before, .icon-button-warning-lighter-25::before, .icon-button-success-lighter-25::before, .icon-button-accent-lighter-25::before, .icon-button-primary-lighter-25::before, .icon-button-teal-light-25::before, .icon-button-black-light-25::before, .icon-button-white-light-25::before, .icon-button-gray-light-25::before, .icon-button-transparent-light-25::before, .icon-button-warning-light-25::before, .icon-button-success-light-25::before, .icon-button-accent-light-25::before, .icon-button-primary-light-25::before, .icon-button-teal-25::before, .icon-button-black-25::before, .icon-button-white-25::before, .icon-button-gray-25::before, .icon-button-transparent-25::before, .icon-button-warning-25::before, .icon-button-success-25::before, .icon-button-accent-25::before, .icon-button-primary-25::before, .icon-button-teal-lighter-darker::before, .icon-button-black-lighter-darker::before, .icon-button-white-lighter-darker::before, .icon-button-gray-lighter-darker::before, .icon-button-transparent-lighter-darker::before, .icon-button-warning-lighter-darker::before, .icon-button-success-lighter-darker::before, .icon-button-accent-lighter-darker::before, .icon-button-primary-lighter-darker::before, .icon-button-teal-light-darker::before, .icon-button-black-light-darker::before, .icon-button-white-light-darker::before, .icon-button-gray-light-darker::before, .icon-button-transparent-light-darker::before, .icon-button-warning-light-darker::before, .icon-button-success-light-darker::before, .icon-button-accent-light-darker::before, .icon-button-primary-light-darker::before, .icon-button-teal-darker::before, .icon-button-black-darker::before, .icon-button-white-darker::before, .icon-button-gray-darker::before, .icon-button-transparent-darker::before, .icon-button-warning-darker::before, .icon-button-success-darker::before, .icon-button-accent-darker::before, .icon-button-primary-darker::before, .icon-button-teal-lighter-dark::before, .icon-button-black-lighter-dark::before, .icon-button-white-lighter-dark::before, .icon-button-gray-lighter-dark::before, .icon-button-transparent-lighter-dark::before, .icon-button-warning-lighter-dark::before, .icon-button-success-lighter-dark::before, .icon-button-accent-lighter-dark::before, .icon-button-primary-lighter-dark::before, .icon-button-teal-light-dark::before, .icon-button-black-light-dark::before, .icon-button-white-light-dark::before, .icon-button-gray-light-dark::before, .icon-button-transparent-light-dark::before, .icon-button-warning-light-dark::before, .icon-button-success-light-dark::before, .icon-button-accent-light-dark::before, .icon-button-primary-light-dark::before, .icon-button-teal-dark::before, .icon-button-black-dark::before, .icon-button-white-dark::before, .icon-button-gray-dark::before, .icon-button-transparent-dark::before, .icon-button-warning-dark::before, .icon-button-success-dark::before, .icon-button-accent-dark::before, .icon-button-primary-dark::before, .icon-button-teal-lighter::before, .icon-button-black-lighter::before, .icon-button-white-lighter::before, .icon-button-gray-lighter::before, .icon-button-transparent-lighter::before, .icon-button-warning-lighter::before, .icon-button-success-lighter::before, .icon-button-accent-lighter::before, .icon-button-primary-lighter::before, .icon-button-teal-light::before, .icon-button-black-light::before, .icon-button-white-light::before, .icon-button-gray-light::before, .icon-button-transparent-light::before, .icon-button-warning-light::before, .icon-button-success-light::before, .icon-button-accent-light::before, .icon-button-primary-light::before, .icon-button-teal::before, .icon-button-black::before, .icon-button-white::before, .icon-button-gray::before, .icon-button-transparent::before, .icon-button-warning::before, .icon-button-success::before, .icon-button-accent::before, .icon-button-primary::before {
@@ -67815,2837 +67818,2837 @@ html, body, iframe {
 
 .icon-button-primary {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker-25 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker-50 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker-75 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker-85 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker-90 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-dark-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-light-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-primary-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-accent-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-success-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-warning-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-transparent-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-gray-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-white-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-black-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 .icon-button-teal-lighter-darker-95 {
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 
 ::-webkit-input-placeholder {
@@ -70681,7 +70684,7 @@ input[type=checkbox]::before {
   content: "";
   width: 20px;
   height: 20px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
 }
 input[type=checkbox]:checked::after {
   visibility: visible;

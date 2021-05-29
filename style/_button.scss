@@ -3,7 +3,7 @@
   @extend .b-1, .cursor-pointer, .p-x-3, .p-y-1, .font-strong, .m-x-2, .position-relative;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur($blur-ratio);
 }
 .button::before{
   @extend .position-absolute;
@@ -41,7 +41,7 @@
   }
   .icon-button-#{$name}{
     background-color: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur($blur-ratio);
     @extend .icon-button, .text-#{$name}, .b-#{$name}, .hover\:bg-white-25, .hover\:text-#{$hoverColor}, .hover\:raise-1-accent;
   }
 }
