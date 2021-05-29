@@ -70752,4 +70752,24 @@ input[type=checkbox]:checked::after {
   transition: opacity ease-in 0.5s;
 }
 
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #7EC8E3;
+    backdrop-filter: blur(10px);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2893b9;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #114051;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -37,12 +37,12 @@
   $hoverColor: func.contrast($white);
   .button-#{$name}{
 
-    @extend .text-#{$name}, .b-#{$name}, .hover\:bg-white-25, .hover\:text-#{$hoverColor}, .hover\:raise-1-accent;
+    @extend .text-#{$name}, .b-#{$name}, .hover\:bg-white-25, .hover\:text-#{"" + $hoverColor}, .hover\:raise-1-accent;
   }
   .icon-button-#{$name}{
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur($blur-ratio);
-    @extend .icon-button, .text-#{$name}, .b-#{$name}, .hover\:bg-white-25, .hover\:text-#{$hoverColor}, .hover\:raise-1-accent;
+    @extend .icon-button, .text-#{$name}, .b-#{$name}, .hover\:bg-white-25, .hover\:text-#{"" + $hoverColor}, .hover\:raise-1-accent;
   }
 }
 
