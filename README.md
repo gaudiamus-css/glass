@@ -1,4 +1,5 @@
 # Glass
+[![screen](assets/buttons.gif)](https://gaudiamus-css.github.io/glass/)
 
 Very simple gaudiamus example to build on top of. 
 
