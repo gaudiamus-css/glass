@@ -1,7 +1,7 @@
 {
-  "name": "glass",
+  "name": "gaudiamus-glass",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "style/style.css",
   "license": "MIT",
   "dependencies": {
     "gaudiamus-css": "^1.2.6"

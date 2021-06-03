@@ -42,8 +42,8 @@ input[type=checkbox] {
     width: 20px;
     height: 20px;
     // f**ing brilliant: https://stackoverflow.com/a/42317014
-    -webkit-mask: url(../assets/done_outline_black_24dp.svg) no-repeat 50% 50%;
-    mask: url(../assets/done_outline_black_24dp.svg) no-repeat 50% 50%;
+    -webkit-mask: $checkbox-icon no-repeat 50% 50%;
+    mask: $checkbox-icon no-repeat 50% 50%;
     -webkit-mask-size: cover;
     mask-size: cover;
     @extend .font-default, .font-strong, .bg-primary;
